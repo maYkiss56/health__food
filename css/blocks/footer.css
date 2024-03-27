@@ -1,0 +1,66 @@
+.footer {
+	margin-top: 7.5rem;
+	background-color: var(--border);
+}
+
+.footer__wrap {
+	max-width: 58.125rem;
+	margin: 0 auto;
+	padding: .5rem;
+}
+
+.footer__about {
+	padding-top: 1.875rem;
+	display: flex;
+	justify-content: space-between;
+	margin: 0 auto;
+	align-items: center;
+	text-align: center;
+}
+
+.footer__image {
+	margin: 0 auto;
+	padding-bottom: 0.8125rem;
+}
+.footer__description {
+	font-family: var(--body-font);
+	font-size: 1rem;
+	font-weight: var(--font-regular);
+	line-height: 1.875rem;
+	color: var(--white-color);
+}
+.footer__info {
+	font-family: var(--body-font);
+	font-size: var(--social-font-size);
+	font-weight: var(--font-regular);
+	line-height:  0.625rem;
+	color: var(--white-color);
+	opacity: 0.5;
+}
+
+.footer__bottom {
+	padding-top: 2.5rem;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.footer__logo {
+	display: flex;
+	font-family: var(--body-font);
+	font-size: var(--p-font-size);
+	font-weight: var(--name-human-font-size);
+	text-transform: var(--uppercase);
+	color: var(--green-color);
+	column-gap: 0.5rem;
+	align-items: end;
+	cursor: pointer;
+}
+
+.footer__designer {
+	font-family: var(--body-font);
+	font-size: var(--definition-font-size);
+	font-weight: var(--font-semi-bold);
+	line-height: 1.875rem;
+	color: var(--gray-btn);
+}

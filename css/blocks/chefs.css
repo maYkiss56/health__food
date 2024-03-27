@@ -1,0 +1,59 @@
+.chefs__row {
+	display: grid;
+	justify-content: space-between;
+	row-gap: 1.875rem;
+	grid-template-areas: 
+	'card1 card2 card3';
+}
+
+.card1 { grid-area: card1; }
+.card2 { grid-area: card2; }
+.card3 { grid-area: card3; }
+
+.chefs__card {
+	width: 21.875rem;
+	height: 9.625rem;
+}
+.chefs__human {
+	padding-bottom: 1.5rem;
+	display: grid;
+	grid-template-columns: 4.0625rem 12.5rem;
+	column-gap: 1.5rem;
+	grid-template-areas:
+	'icon1 title1'
+	'icon1 desc1';
+}
+
+.icon1 { grid-area: icon1 ;}
+.title1 { grid-area: title1; }
+.desc1 {grid-area: desc1; }
+
+.chefs__name {
+	padding-top: 0.6875rem;
+	font-family: var(--body-font);
+	font-size: var(--name-human-font-size);
+	font-weight: var(--font-regular);
+	color: var(--white-color);
+	line-height: 1.3125rem;
+	letter-spacing: -0.0138rem;
+}
+.shefs__description {
+	font-family: var(--body-font);
+	font-size: 12px;
+	font-weight: var(--font-regular);
+	color: var(--gray-white-color);
+	line-height: 1rem;
+	letter-spacing: -0.0094rem;
+}
+
+.chefs__works {
+	display: grid;
+	grid-template-columns: 10rem 4.0625rem 4.0625rem;
+	column-gap: 1.875rem;
+	grid-template-areas: 
+	'chefs__img1 chefs__img2 chefs__img3';
+}
+
+.chefs__img1 { grid-area: chefs__img1 ;}
+.chefs__img2 { grid-area: chefs__img2; }
+.chefs__img3 { grid-area: chefs__img3; }

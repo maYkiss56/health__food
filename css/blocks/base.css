@@ -1,0 +1,156 @@
+/*=============== GOOGLE FONTS ===============*/
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&display=swap");
+/*=============== VARIABLES CSS ===============*/
+:root {
+	/*========== Colors ==========*/
+	--green-color: #34c759;
+	--white-color: #fff;
+	--black-color: #1a1a1a;
+	--dark-color: #252525;
+	--gray-color: rgb(37, 37, 37);
+	--lite-gray-color: #a6a6a6;
+	--absolute-lite-gray-color: #a4a8b2;
+	--border-arrow: #4d4d4d;
+	--gray-white-color: #ffffff80;
+	--gray-btn: #737373;
+	--border: #303030;
+	--social-logo-color: #bfbfbf;
+	/*========== Font ==========*/
+	/*.5rem = 8px | 1rem = 16px ...*/
+	--body-font: "Montserrat", sans-serif;
+	--uppercase: uppercase;
+	--capitalize: capitalize;
+	--h1-font-size: 4.5rem; /*72px*/
+	--h2-font-size: 2.25rem; /*36px*/
+	--h3-font-size: 1.875rem; /*30px*/
+	--h4-font-size: 2rem; /*32px*/
+	--p-font-size: 1rem; /*16px*/
+	--p-card-font-size: 0.8125rem; /*13px*/
+	--small-font-size: 0.625rem; /*10px*/
+	--definition-font-size: 0.75rem; /*12px*/
+	--name-human-font-size: 1.125rem; /*18px*/
+	--social-font-size: 0.875rem; /*14px*/
+	--h-works-font-size: 1.375rem; /*22px*/
+	--recipes-font-size: 1.5rem;
+	/*========== Font weight ==========*/
+	--font-regular: 400;
+	--font-semi-bold: 700;
+	--font-bold: 900;
+	/*========== Z-index ==========*/
+	--top: 10;
+	--bottom: -1;
+}
+
+::-webkit-scrollbar {
+	width: 1rem;
+}
+
+::-webkit-scrollbar-track {
+	background: var(--gray-color);
+}
+
+::-webkit-scrollbar-thumb {
+	background-color: var(--border);
+	border-radius: .5rem;
+	border: .2rem solid var(--border);
+}
+
+body {
+	background-color: var(--black-color);
+	
+}
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+ul {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+img {
+	display: block;
+	max-width: 100%;
+	height: auto;
+}
+
+button {
+	border: none;
+}
+
+.container {
+	max-width: 1116px;
+	padding: 0.5rem;
+	margin: 0 auto;
+}
+
+.line {
+	margin-top: 2.1738rem;
+	width: 100%;
+	border: 0.0625rem solid var(--white-color);
+	opacity: .1;
+}
+
+.background {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: -1; /* Помещаем контейнер под остальным контентом */
+}
+
+.background__image {
+	background-image: url('/img/preview/background.jpg');
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	animation: fadeInOut 9s infinite; /* Анимация для появления и исчезновения каждые 9 секунд */
+	width: 100%;
+	height: 100%;
+}
+
+@keyframes fadeInOut {
+	0%, 100% {
+		opacity: 1; /* Начальная и конечная точка - полностью непрозрачный */
+	}
+	50% {
+		opacity: 0; /* Середина анимации - полностью прозрачный */
+	}
+}
+
+.title {
+	display: flex;
+	text-align: center;
+	align-items: center;
+	padding-top: 7.5rem;
+	padding-bottom: 3.75rem;
+}
+
+.title h2 {
+	position: relative;
+	top: 5rem;
+	font-family: var(--body-font);
+	font-size: var(--h2-font-size);
+	font-weight: var(--font-regular);
+	color: var(--white-color);
+	line-height: 5.625rem;
+	letter-spacing: 0.625rem;
+	text-transform: var(--capitalize);
+}
+
+.title img {
+	margin: 0 auto;
+}
+
+.title__line {
+	margin: 0 auto;
+	margin-top: 2rem;
+	border: 0.0625rem solid var(--green-color);
+	width: 3.75rem;
+}

@@ -1,0 +1,78 @@
+.menu__list {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: left;
+	text-align: left;
+	row-gap: 1.875rem;
+}
+
+.menu__card {
+	width: 21.875rem;
+	height: 30.8125rem;
+	border-radius: 8px;
+	box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.1);
+	background-color: var(--gray-color);
+	transition: all .4s ease-in-out;
+}
+
+.menu__title {
+	padding-top: 1.875rem;
+	padding-left: 1.875rem;
+	font-family: var(--body-font);
+	font-size: var(--h4-font-size);
+	font-weight: var(--font-regular);
+	color: var(--white-color);
+	line-height: 1.875rem;
+}
+
+.menu__subtitle {
+	padding-left: 1.875rem;
+	font-family: var(--body-font);
+	font-size: var(--definition-font-size);
+	font-weight: var(--font-regular);
+	color: var(--absolute-lite-gray-color);
+	line-height: 1rem;
+	letter-spacing: -0.0094rem;
+}
+
+.menu__description {
+	padding-top: 1.25rem;
+	padding-left: 1.875rem;
+	font-family: var(--body-font);
+	font-size: var(--p-card-font-size);
+	font-weight: var(--font-regular);
+	line-height: 1.125rem;
+	color: var(--lite-gray-color);
+	letter-spacing: -0.01rem;
+}
+
+.menu__reviews {
+	padding-top: 1.25rem;
+	padding-left: 1.875rem;
+	padding-right: 1.5rem;
+	display: flex;
+	justify-content: space-between;
+}
+.menu__btn {
+	width: 6.25rem;
+	height: 2.5rem;
+	font-size: var(--small-font-size);
+	font-weight: var(--font-bold);
+
+	color: var(--white-color);
+	background-color: var(--gray-color);
+	border: 2px solid var(--border-arrow);
+	border-radius: 30px;
+	cursor: pointer;
+}
+
+.menu__card:hover #Gray_85 {
+	fill: #F9AD3D;
+}
+
+.menu__card:hover .menu__btn {
+	color: var(--gray-color);
+	background-color: var(--green-color);
+	border: none;
+}

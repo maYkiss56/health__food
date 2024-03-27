@@ -1,0 +1,21 @@
+<svg width="60.000000" height="60.000000" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<desc>
+			Created with Pixso.
+	</desc>
+	<defs>
+		<clipPath id="clip2_226">
+			<rect id="1. Buttons/1. Large/6. Rounded/1. White" width="60.000000" height="60.000000" fill="white" fill-opacity="0"/>
+		</clipPath>
+	</defs>
+	<rect id="1. Buttons/1. Large/6. Rounded/1. White" width="60.000000" height="60.000000" fill="#FFFFFF" fill-opacity="0"/>
+	<g clip-path="url(#clip2_226)">
+		<path id="placeholder" d="M30 0C13.43 0 0 13.43 0 30C0 46.56 13.43 60 30 60C46.56 60 60 46.56 60 30C60 13.43 46.56 0 30 0Z" fill="#262626" fill-opacity="1.000000" fill-rule="evenodd"/>
+		<path id="placeholder" d="M0 30C0 13.43 13.43 0 30 0C46.56 0 60 13.43 60 30C60 46.56 46.56 60 30 60C13.43 60 0 46.56 0 30ZM4.05 40.74Q2 35.79 2 30Q2 24.2 4.05 19.25Q6.1 14.3 10.2 10.2Q14.3 6.1 19.25 4.05Q24.2 2 30 2Q35.79 1.99 40.74 4.05Q45.69 6.1 49.79 10.2Q53.89 14.3 55.94 19.25Q58 24.2 58 30Q58 35.79 55.94 40.74Q53.89 45.69 49.79 49.79Q45.69 53.89 40.74 55.94Q35.79 58 30 58Q24.2 58 19.25 55.94Q14.3 53.89 10.2 49.79Q6.1 45.69 4.05 40.74Z" fill="#303030" fill-opacity="1.000000" fill-rule="evenodd"/>
+		<mask id="mask2_229" mask-type="alpha" maskUnits="userSpaceOnUse" x="22.000000" y="22.000000" width="16.000000" height="16.000000">
+			<path id="Icon" d="M38 29L25.83 29L31.42 23.41L30 22L22 30L30 38L31.41 36.59L25.83 31L38 31L38 29Z" fill="#000000" fill-opacity="1.000000" fill-rule="evenodd"/>
+		</mask>
+		<g mask="url(#mask2_229)">
+			<rect id="Gray 85" x="17.000000" y="17.000000" width="26.000000" height="26.000000" fill="#4D4D4D" fill-opacity="1.000000"/>
+		</g>
+	</g>
+</svg>

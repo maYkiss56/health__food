@@ -1,0 +1,38 @@
+.header {
+	padding-top: 1rem;
+}
+.nav {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.nav__logo {
+	display: flex;
+	font-family: var(--body-font);
+	font-size: var(--small-font-size);
+	font-weight: var(--name-human-font-size);
+	text-transform: var(--uppercase);
+	color: var(--green-color);
+	column-gap: 0.5rem;
+	align-items: end;
+	cursor: pointer;
+}
+
+.nav__list {
+	display: flex;
+	justify-content: space-between;
+	column-gap: 2.8125rem;
+}
+
+.nav__item a {
+	font-family: var(--body-font);
+	font-size: var(--social-font-size);
+	font-weight: var(--font-semi-bold);
+	color: var(--white-color);
+	transition: color .4s ease;
+}
+
+.nav__item:hover a {
+	color: var(--green-color);
+}

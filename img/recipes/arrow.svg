@@ -1,0 +1,12 @@
+<svg width="13.000000" height="13.000000" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<desc>
+			Created with Pixso.
+	</desc>
+	<defs/>
+	<mask id="mask2_102" mask-type="alpha" maskUnits="userSpaceOnUse" x="-0.400024" y="-0.399902" width="12.799988" height="12.800049">
+		<path id="Icon" d="M12.4 5.2L2.66 5.2L7.13 0.72L6 -0.4L-0.41 6L6 12.4L7.12 11.27L2.66 6.8L12.4 6.8L12.4 5.2Z" fill="#000000" fill-opacity="1.000000" fill-rule="evenodd"/>
+	</mask>
+	<g mask="url(#mask2_102)">
+		<rect id="Gray 85" x="-4.400024" y="-4.399902" width="20.799999" height="20.799999" fill="#FFFFFF" fill-opacity="1.000000"/>
+	</g>
+</svg>
